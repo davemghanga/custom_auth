@@ -1,0 +1,15 @@
+.home-page{
+    margin-top: 13px;
+    width: 500px;
+
+}
+
+.custom-rounded{
+    border-radius: 20px;    
+    width: 400px;
+}
+
+.signup-form{
+    background-color: slategray;
+    margin-top: 13px;
+}
