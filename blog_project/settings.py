@@ -80,8 +80,14 @@ MIDDLEWARE = [
 ]
 
 ACCOUNT_FORMS = {
-    'signup':"users.forms.CustomSignUpForm"
+    'signup': 'users.forms.CustomSignUpForm',
 }
+
+LOGIN_REDIRECT_URL = "/"
+
+ACCOUNT_LOGOUT_REDIRECT_URl = "/"
+
+ACCOUNT_LOGIN_REDIRECT_URL = "/"
 
 ROOT_URLCONF = 'blog_project.urls'
 
